@@ -10,7 +10,6 @@ function rollIt1() {
   return randomNumber1
 }
 
-
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 function rollIt2() {
