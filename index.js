@@ -25,6 +25,6 @@ function rollIt2() {
 rollIt1();
 rollIt2();
 
-randomNumber1 > randomNumber2 ? document.querySelector("h1").innerText = "🏆 Player 1 wins!" :
+randomNumber1 > randomNumber2 ? document.querySelector("h1").innerText = " Player 1 wins!" :
   randomNumber1 === randomNumber2 ? document.querySelector("h1").innerText = "It's a draw!" :
-  document.querySelector("h1").innerText = "Player 2 wins! 🏆";
+  document.querySelector("h1").innerText = "Player 2 wins!";
